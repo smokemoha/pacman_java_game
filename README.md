@@ -1,5 +1,5 @@
 Pac-Man Clone in Java
-Overview
+
 This project is a Pac-Man clone built using Java and the Swing framework. The game features classic maze navigation with Pac-Man, ghosts, walls, food dots, and a bonus cherry that appears randomly to award extra points. It demonstrates essential game programming techniques including animation, collision detection, user input handling, and simple ghost AI.
 
 Features
@@ -30,34 +30,20 @@ Java Development Kit (JDK) 8 or higher
 
 An IDE or text editor (e.g., IntelliJ IDEA, Eclipse, Visual Studio Code)
 
-(Optional) A build tool like Maven or Gradle
-
-How to Build and Run
 Clone the Repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/pacman-java.git
+```
+git clone https://github.com/smokemoha/pacman-java.git
 cd pacman-java
-Compile the Code:
-
+```
 Compile the project using your IDE or via the command line:
-
-bash
-Copy
-Edit
+```
 javac -cp . *.java
-Run the Game:
-
+```
 Execute the game by running the main class:
-
-bash
-Copy
-Edit
+```
 java App
+```
 Resource Files:
-
 Ensure that the following image files are in the proper resources directory (or in the same folder as your compiled classes):
 
 wall.png
@@ -81,7 +67,7 @@ pacmanRight.png
 cherry.png
 
 Gameplay Instructions
-Objective:
+
 Guide Pac-Man through the maze, eating food dots while avoiding ghosts. Collect the bonus cherry when it appears for extra points.
 
 Controls:
